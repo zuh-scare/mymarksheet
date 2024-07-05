@@ -1,3 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Signika+Negative:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
 .App {
   text-align: none;
+}
+
+.App h1{
+  text-align: center;
+  font-family: "Anton SC", sans-serif;
+  font-weight: 300;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+  margin-top: 60px;
+  margin-bottom: 15px;
+}
+
+.App p{
+  text-align: center;
+  font-weight: 500;
+  font-size: 19px;
+  text-shadow: 2px 2px 5px #405D72;
+  margin: 0px;
+  line-height: normal;
+}
+
+.App hr{
+  text-align: none;
+  margin-top: 30px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.App .info-left p{
+  padding-top: 20px;
+  text-align: left;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.App .info-right {
+  padding-top: 15px;
+}
+
+.App .info-right img{
+  margin-left: 1200px;
+  margin-top: -248px;
+}
+
+table {
+  margin-left: 120px;
+  text-align: center;
+  width: 86%;
+  margin-bottom: 80px;
+}
+
+th {
+  font-family: "Anton SC", sans-serif;
+  height: 60px;
+  font-size: 21px;
+  color: #405D72;
+}
+
+td{
+  height: 40px;
+  font-family: "Playwrite GB S", cursive;
+  font-weight: bold;
+}
+
+table, th, td {
+  border: 3px solid;
+  border-color: #405D72;
+}
+
+.division {
+  color: #597445;
+}
+
+.percentage{
+  color: #597445;
 }
